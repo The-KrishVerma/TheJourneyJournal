@@ -1,4 +1,3 @@
-       
 * {
     margin: 0;
     padding: 0;
@@ -15,17 +14,30 @@ a {
     text-decoration: none;
 }
 
+/* Header Styles */
 header {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 20px; /* Increased padding for a taller header */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo h1 {
-    font-size: 24px;
+    font-size: 30px;
+}
+
+.right-region {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 nav ul {
@@ -39,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
@@ -47,14 +59,14 @@ nav ul li a:hover {
     color: #f90;
 }
 
-
+/* Hero Section */
 .hero {
-    background: url(./photoes/6C634D8E-1D67-4396-AFEB-667A6D407F8D.png);
+    background: url(./photoes/6C634D8E-1D67-4396-AFEB-667A6D407F8D.png) ;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left; /* Align text to the left */
     color: #fff;
     position: relative;
 }
@@ -68,26 +80,36 @@ nav ul li a:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
+
 .hero-content {
     z-index: 2;
     max-width: 800px;
     padding: 20px;
+    transform: translateX(30%); /* Shift text to the right */
 }
+
 
 .hero-content h2 {
     font-size: 50px;
     margin-bottom: 20px;
+    text-align: center;
+    margin-right: 150px;
 }
 
 .hero-content p {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.5;
+    margin-right: 100px;
 }
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 150px;
 }
 
 .btn {
@@ -104,4 +126,10 @@ nav ul li a:hover {
 
 .btn:hover {
     background-color: #cc7a00;
+}
+
+.orange-line {
+    height: 5px; /* Adjust thickness as needed */
+    background-color: orange;
+    width: 100%; /* Ensure it spans the full width */
 }
