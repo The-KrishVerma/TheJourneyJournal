@@ -59,7 +59,6 @@ nav ul li a:hover {
     color: #f90;
 }
 
-/* Hero Section */
 .hero {
     background: url(./photoes/main\ photo.png) ;
     height: 100vh;
@@ -243,6 +242,6 @@ footer .social-icons a {
 }
 
 footer .copyright {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 10px;
 }
