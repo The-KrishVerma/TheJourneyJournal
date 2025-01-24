@@ -133,3 +133,60 @@ nav ul li a:hover {
     background-color: orange;
     width: 100%; /* Ensure it spans the full width */
 }
+.latest-blog-posts {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.latest-blog-posts h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.blog-posts-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    width: 400px !important; /* Set width */
+    height: 250px !important; /* Set height */
+    object-fit: cover; /* Crop to fit */
+    display: block;
+}
+
+
+.blog-post h3 {
+    font-size: 1.2rem;
+    color: orange;
+    padding: 10px;
+}
+
+.more-posts-btn {
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    
+}
+.grey-line {
+    height: 75px;
+    background-color: rgb(198, 195, 195);
+    width: 100%;
+}
