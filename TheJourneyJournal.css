@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url(./photoes/6C634D8E-1D67-4396-AFEB-667A6D407F8D.png) ;
+    background: url(./photoes/main\ photo.png) ;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -189,4 +189,60 @@ nav ul li a:hover {
     height: 75px;
     background-color: rgb(198, 195, 195);
     width: 100%;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+footer .footer-column {
+    max-width: 300px;
+}
+
+footer .footer-column h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-column ul li {
+    margin: 5px 0;
+}
+
+footer .footer-column ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    margin-top: 10px;
 }
