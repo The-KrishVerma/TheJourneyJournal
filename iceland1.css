@@ -1,8 +1,14 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
-  background-color: #f9f9f9;
+  padding: 0px;
+  background-color: white;
   color: #333;
 }
 
@@ -11,10 +17,10 @@ body {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .content {
@@ -42,30 +48,28 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.section-title {
-  font-size: 2.3rem;
-  /* Set a larger font size for prominence */
-  font-weight: 700;
-  /* Make the font bold */
-  color: #1abc9c;
-  /* Use a vibrant greenish-blue color */
-  text-align: center;
-  /* Center-align the heading */
-  margin-top: 1.5em;
-  /* Add space above the heading */
-  margin-bottom: 1em;
-  /* Add space below the heading */
-  text-transform: capitalize;
-  /* Capitalize the first letters of each word */
-  border-bottom: 3px solid #16a085;
-  /* Add an accent border below */
-  padding-bottom: 0.5em;
-  /* Add space between the text and the border */
-  letter-spacing: 0.03em;
-  /* Slightly increase letter spacing for readability */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px; /* Increased padding for a taller header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Section Styling */
+.section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #1abc9c;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  border-bottom: 3px solid #16a085;
+  padding-bottom: 0.5em;
+  letter-spacing: 0.03em;
+}  
+
 .highlight-section {
   margin: 40px 0;
   display: flex;
@@ -102,27 +106,22 @@ h1 {
 
 h3 {
   font-size: 1.8rem;
-  /* Adjust the font size */
   font-weight: bold;
-  /* Make it bold */
   color: #2c3e50;
-  /* Set a dark grayish-blue color */
   margin-bottom: 0.5em;
-  /* Add some space below the heading */
   text-transform: uppercase;
-  /* Make the text uppercase */
   letter-spacing: 0.05em;
-  /* Add some spacing between letters */
   border-left: 4px solid #3498db;
-  /* Add a left border for a nice effect */
   padding-left: 10px;
-  /* Add padding to align text after the border */
-}
+}  
 footer {
   background-color: #000;
   color: #fff;
   padding: 20px 10px;
   text-align: center;
+  margin:0px;
+  width:100%;
+  max-width: auto;
 }
 
 footer .footer-container {
@@ -130,10 +129,11 @@ footer .footer-container {
   justify-content: center;
   flex-wrap: wrap;
   gap: 183px;
+  
 }
 
 footer .footer-column {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 footer .footer-column h1 {
@@ -143,12 +143,12 @@ footer .footer-column h1 {
 
 footer .footer-column ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 20;
+  margin: 10;
 }
 
 footer .footer-column ul li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 footer .footer-column ul li a {
@@ -170,9 +170,10 @@ footer .social-icons a {
   text-decoration: none;
 }
 
-footer .copyright {
+/* footer .copyright {
   font-size: 0.9rem;
   margin-top: 10px;
-}
+} */
+
 
 
