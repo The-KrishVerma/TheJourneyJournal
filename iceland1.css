@@ -1,86 +1,178 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .content {
-    flex: 2;
-    line-height: 1.8;
-    max-width: 800px;
-  }
-  
-  h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .updated-date {
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 20px;
-  }
-  
-  .main-image {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .section-title {
-    text-align: center;
-    background-color: #f1f1f1;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  /* Section Styling */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  flex: 2;
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.updated-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.3rem;
+  /* Set a larger font size for prominence */
+  font-weight: 700;
+  /* Make the font bold */
+  color: #1abc9c;
+  /* Use a vibrant greenish-blue color */
+  text-align: center;
+  /* Center-align the heading */
+  margin-top: 1.5em;
+  /* Add space above the heading */
+  margin-bottom: 1em;
+  /* Add space below the heading */
+  text-transform: capitalize;
+  /* Capitalize the first letters of each word */
+  border-bottom: 3px solid #16a085;
+  /* Add an accent border below */
+  padding-bottom: 0.5em;
+  /* Add space between the text and the border */
+  letter-spacing: 0.03em;
+  /* Slightly increase letter spacing for readability */
+}
+
+/* Section Styling */
+.highlight-section {
+  margin: 40px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.highlight-image {
+  flex: 1;
+  max-width: 100%;
+  /* Ensure the image width scales */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.highlight-text {
+  flex: 1;
+  max-width: 100%;
+  /* Ensure it doesn’t exceed the image width */
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .highlight-section {
-    margin: 40px 0;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  
-  .highlight-image {
-    flex: 1;
-    max-width: 100%; /* Ensure the image width scales */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .highlight-text {
-    flex: 1;
-    max-width: 100%; /* Ensure it doesn’t exceed the image width */
-    text-align: justify;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #555;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .highlight-section {
-      flex-direction: column;
-    }
-  }
+}
+
+h3 {
+  font-size: 1.8rem;
+  /* Adjust the font size */
+  font-weight: bold;
+  /* Make it bold */
+  color: #2c3e50;
+  /* Set a dark grayish-blue color */
+  margin-bottom: 0.5em;
+  /* Add some space below the heading */
+  text-transform: uppercase;
+  /* Make the text uppercase */
+  letter-spacing: 0.05em;
+  /* Add some spacing between letters */
+  border-left: 4px solid #3498db;
+  /* Add a left border for a nice effect */
+  padding-left: 10px;
+  /* Add padding to align text after the border */
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 183px;
+}
+
+footer .footer-column {
+  max-width: 300px;
+}
+
+footer .footer-column h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+footer .footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-column ul li {
+  margin: 5px 0;
+}
+
+footer .footer-column ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+footer .social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer .copyright {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+
