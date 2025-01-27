@@ -79,12 +79,16 @@ strong {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
+  height: 370px;
+  width: 500px;
 }
 
 img {
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 370px;
+  width: 500px;
 }
 
 /* Horizontal Line Styling */
