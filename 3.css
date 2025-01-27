@@ -107,3 +107,38 @@ hr {
 .Read{
   text-decoration: none;
 }
+.footer {
+  background: linear-gradient(90deg, #2c2c2c, #1a1a1a); /* Gradient background */
+  color: #ccc; /* Light gray text */
+  padding: 20px 0; /* Extra padding for better spacing */
+  text-align: center; /* Center-align text */
+  border-top: 3px solid #555; /* Accent border at the top */
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+  font-size: 20px; /* Readable text size */
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+  max-width: 1200px; /* Content width limit */
+  margin: 0 auto; /* Center horizontally */
+  letter-spacing: 0.5px; /* Subtle letter spacing */
+}
+
+.footer-content span {
+  color: #e0e0e0; /* Slightly lighter text for contrast */
+}
+
+.footer-content span strong {
+  color: #ffffff; /* Highlight website name */
+}
+
+.footer-content:hover span {
+  color: #ffffff; /* Full white on hover for interactivity */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.footer-content:hover strong {
+  text-decoration: underline; /* Underline website name on hover */
+}
