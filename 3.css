@@ -9,12 +9,13 @@ body {
 
 /* Header Styling */
 header {
-  background-color: #4f5456;
+  background-color: #205970;
   color: #fff;
-  padding: 30px 20px;
+  padding: 15px 20px; /* Increase padding for more height */
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 h1 {
   color: #fff;
@@ -104,8 +105,15 @@ hr {
     grid-template-columns: 1fr;
   }
 }
-.Read{
+.Read {
   text-decoration: none;
+  color: #ae0000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.Read:hover {
+  color: #660000;
 }
 .footer {
   background: linear-gradient(90deg, #2c2c2c, #1a1a1a); /* Gradient background */
