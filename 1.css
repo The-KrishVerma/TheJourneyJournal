@@ -1,9 +1,9 @@
+/* Global reset and styles */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .container {
   display: flex;
@@ -25,7 +24,6 @@ body {
   padding: 30px;
 }
 
-
 .content {
   flex: 1 1 60%;
   background-color: #fff;
@@ -36,7 +34,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 }
-
 
 .content h1 {
   color: #2b3a42;
@@ -50,7 +47,6 @@ body {
   font-size: 1.6rem;
   margin-bottom: 20px;
 }
-
 
 .sidebar {
   flex: 1 1 35%;
@@ -74,7 +70,6 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
 .section-title {
   margin-top: 40px;
   border-bottom: 2px solid #2e3d4d;
@@ -87,8 +82,6 @@ body {
   display: flex;
   align-items: stretch;
   height: auto;
-
-
 }
 
 .highlight-section {
@@ -111,8 +104,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   align-self: center;
-  scale: 1px;
-
 }
 
 .highlight-text {
@@ -123,9 +114,9 @@ body {
   text-align: justify;
   align-self: stretch;
   padding-top: 20px;
-
 }
 
+/* Footer Styles */
 .footer {
   background: linear-gradient(90deg, #2c2c2c, #1a1a1a);
   color: #ccc;
@@ -162,6 +153,7 @@ body {
   text-decoration: underline;
 }
 
+/* Links */
 a {
   color: #2e3d4d;
   text-decoration: none;
@@ -169,4 +161,108 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Media Queries for Mobile & Tablet Responsiveness */
+
+/* For devices with max width of 1024px (tablets) */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .content {
+    flex: 1 1 100%;
+    padding: 20px;
+  }
+
+  .sidebar {
+    flex: 1 1 100%;
+    margin-top: 20px;
+  }
+
+  .highlight-image {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .highlight {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlight-text {
+    text-align: center;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+}
+
+/* For devices with max width of 768px (phones) */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content h2 {
+    font-size: 1.4rem;
+  }
+
+  .highlight-image {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .highlight-section {
+    padding: 20px;
+  }
+
+  .highlight-text {
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+
+  .footer-content {
+    font-size: 14px;
+  }
+
+  .footer-content span {
+    font-size: 14px;
+  }
+}
+
+/* For devices with max width of 480px (smaller phones) */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 1.6rem;
+  }
+
+  .highlight-image {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .footer-content {
+    font-size: 12px;
+  }
 }
