@@ -73,6 +73,7 @@ h2 {
 }
 
 .highlight-image {
+  display: flex;
   flex: 1 1 40%;
   max-width: 40%;
   height: auto;
@@ -138,6 +139,7 @@ h3:hover {
 }
 
 .highlight-image {
+  display: flex;
   flex: 0 0 40%;
   max-width: 40%;
   height: auto;
