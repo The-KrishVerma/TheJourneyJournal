@@ -39,7 +39,8 @@ body {
   margin-bottom: 15px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #0056b3;
 }
 
@@ -96,6 +97,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 h3 {
   font-size: 1.8rem;
   font-weight: 600;
@@ -118,6 +120,7 @@ h3:hover {
   background-color: #dcdde1;
   color: #2c3e50;
 }
+
 .highlight-section {
   display: flex;
   align-items: center;
@@ -142,6 +145,7 @@ h3:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .footer {
   background: linear-gradient(90deg, #2c2c2c, #1a1a1a);
   color: #ccc;

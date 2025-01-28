@@ -99,6 +99,7 @@ hr {
     grid-template-columns: 1fr;
   }
 }
+
 .Read {
   text-decoration: none;
   color: #ae0000;
@@ -109,6 +110,7 @@ hr {
 .Read:hover {
   color: #660000;
 }
+
 .footer {
   background: linear-gradient(90deg, #2c2c2c, #1a1a1a);
   color: #ccc;
@@ -137,13 +139,13 @@ hr {
 }
 
 .footer-content:hover span {
-  
+
   color: #ffffff;
-  
+
   transition: color 0.3s ease;
 }
 
 .footer-content:hover strong {
-  
+
   text-decoration: underline;
 }
