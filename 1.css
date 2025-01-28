@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -15,7 +15,7 @@ body {
   padding: 0;
 }
 
-/* Main Container */
+
 .container {
   display: flex;
   flex-wrap: wrap; /* Makes the layout responsive */
@@ -26,7 +26,7 @@ body {
   padding: 30px;
 }
 
-/* Content Section */
+
 .content {
   flex: 1 1 60%; /* More space for content */
   background-color: #fff;
@@ -38,7 +38,7 @@ body {
   justify-content: flex-start;
 }
 
-/* Content Title */
+
 .content h1 {
   color: #2b3a42;
   font-size: 2rem;
@@ -52,9 +52,9 @@ body {
   margin-bottom: 20px;
 }
 
-/* Sidebar Section */
+
 .sidebar {
-  flex: 1 1 35%; /* Sidebar takes up 35% width */
+  flex: 1 1 35%;
   background-color: #fff;
   padding: 25px;
   border-radius: 10px;
@@ -75,7 +75,7 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Title */
+
 .section-title {
   margin-top: 40px;
   border-bottom: 2px solid #2e3d4d;
@@ -84,7 +84,7 @@ body {
   color: #2b3a42;
 }
 
-/* Highlight Section */
+
 .highlight-section {
   display: flex;
   flex-wrap: wrap;
@@ -94,16 +94,16 @@ body {
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
-  justify-content: space-between; /* Ensures that the elements inside are spaced properly */
+  justify-content: space-between;
 }
 
 .highlight-image {
-  flex: 0 0 45%; /* Image takes up 45% of the section */
+  flex: 0 0 45%;
   height: 250px;
-  object-fit: cover; /* Ensure the image maintains its aspect ratio while filling the box */
+  object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  align-self: center; /* Vertically center the image with respect to the text */
+  align-self: center;
 }
 
 .highlight-text {
@@ -111,47 +111,46 @@ body {
   color: #555;
   font-size: 1rem;
   line-height: 1.6;
-  text-align: justify; /* Ensures text is evenly distributed */
-  align-self: center; /* Vertically align text with the image */
+  text-align: justify;
+  align-self: center;
 }
 
 .footer {
-  background: linear-gradient(90deg, #2c2c2c, #1a1a1a); /* Gradient background */
-  color: #ccc; /* Light gray text */
-  padding: 20px 0; /* Extra padding for better spacing */
-  text-align: center; /* Center-align text */
-  border-top: 3px solid #555; /* Accent border at the top */
-  font-family: 'Arial', sans-serif; /* Clean, modern font */
-  font-size: 20px; /* Readable text size */
-  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  background: linear-gradient(90deg, #2c2c2c, #1a1a1a);
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 3px solid #555;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-content {
-  max-width: 1200px; /* Content width limit */
-  margin: 0 auto; /* Center horizontally */
-  letter-spacing: 0.5px; /* Subtle letter spacing */
+  max-width: 1200px;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
 }
 
 .footer-content span {
-  color: #e0e0e0; /* Slightly lighter text for contrast */
+  color: #e0e0e0;
 }
 
 .footer-content span strong {
-  color: #ffffff; /* Highlight website name */
+  color: #ffffff;
 }
 
 .footer-content:hover span {
-  color: #ffffff; /* Full white on hover for interactivity */
-  transition: color 0.3s ease; /* Smooth transition */
+  color: #ffffff;
+  transition: color 0.3s ease;
 }
 
 .footer-content:hover strong {
-  text-decoration: underline; /* Underline website name on hover */
+  text-decoration: underline;
 }
 
-/* Links */
 a {
   color: #2e3d4d;
   text-decoration: none;

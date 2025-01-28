@@ -7,11 +7,10 @@ body {
   color: #333;
 }
 
-/* Header Styling */
 header {
   background-color: #205970;
   color: #fff;
-  padding: 15px 20px; /* Increase padding for more height */
+  padding: 15px 20px;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +22,7 @@ h1 {
   margin: 0;
 }
 
-/* Main Content Styling */
+
 main {
   padding: 40px 20px;
   background-color: #fff;
@@ -31,7 +30,6 @@ main {
   margin: 0 auto;
 }
 
-/* Section Styling */
 .day-plan {
   background-color: #fff;
   border-radius: 12px;
@@ -49,7 +47,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Two-column Layout */
 .day-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -71,7 +68,6 @@ strong {
   font-weight: bold;
 }
 
-/* Image Styling */
 .image {
   display: flex;
   justify-content: center;
@@ -92,14 +88,12 @@ img {
   width: 500px;
 }
 
-/* Horizontal Line Styling */
 hr {
   border: 0;
   border-top: 1px solid #ddd;
   margin: 40px 0;
 }
 
-/* Media Queries for Smaller Screens */
 @media (max-width: 768px) {
   .day-content {
     grid-template-columns: 1fr;
@@ -116,37 +110,40 @@ hr {
   color: #660000;
 }
 .footer {
-  background: linear-gradient(90deg, #2c2c2c, #1a1a1a); /* Gradient background */
-  color: #ccc; /* Light gray text */
-  padding: 20px 0; /* Extra padding for better spacing */
-  text-align: center; /* Center-align text */
-  border-top: 3px solid #555; /* Accent border at the top */
-  font-family: 'Arial', sans-serif; /* Clean, modern font */
-  font-size: 20px; /* Readable text size */
-  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  background: linear-gradient(90deg, #2c2c2c, #1a1a1a);
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 3px solid #555;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-content {
-  max-width: 1200px; /* Content width limit */
-  margin: 0 auto; /* Center horizontally */
-  letter-spacing: 0.5px; /* Subtle letter spacing */
+  max-width: 1200px;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
 }
 
 .footer-content span {
-  color: #e0e0e0; /* Slightly lighter text for contrast */
+  color: #e0e0e0;
 }
 
 .footer-content span strong {
-  color: #ffffff; /* Highlight website name */
+  color: #ffffff;
 }
 
 .footer-content:hover span {
-  color: #ffffff; /* Full white on hover for interactivity */
-  transition: color 0.3s ease; /* Smooth transition */
+  
+  color: #ffffff;
+  
+  transition: color 0.3s ease;
 }
 
 .footer-content:hover strong {
-  text-decoration: underline; /* Underline website name on hover */
+  
+  text-decoration: underline;
 }
