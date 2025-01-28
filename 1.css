@@ -86,23 +86,35 @@ body {
 
 .highlight{
   display: flex;
+  align-items: stretch;
+  height: auto;
+
 
 }
 .highlight-section {
+  flex: 1;
   margin-top: 30px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
 }
 
 .highlight-image {
   flex: 0 0 45%;
-  height: 250px;
-  object-fit: cover;
+  height: 350px;
+  width:300px;
+  margin:30px 10px 0px 10px;
+  /* object-fit: cover; */
+  /* max-height: 200px; */
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   align-self: center;
+  scale: 1px;
+
 }
 
 .highlight-text {
@@ -111,8 +123,9 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   text-align: justify;
-  align-self: center;
+  align-self: stretch;
   padding-top: 20px;
+
 }
 
 .footer {
