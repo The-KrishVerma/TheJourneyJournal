@@ -17,7 +17,7 @@ a {
 header {
     background-color: #000;
     color: #fff;
-    padding: 20px 20px; /* Increased padding for a taller header */
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     color: #fff;
     position: relative;
 }
@@ -83,7 +83,7 @@ nav ul li a:hover {
     z-index: 2;
     max-width: 800px;
     padding: 20px;
-    transform: translateX(30%); /* Shift text to the right */
+    transform: translateX(30%);
 }
 
 
@@ -127,9 +127,9 @@ nav ul li a:hover {
 }
 
 .orange-line {
-    height: 5px; /* Adjust thickness as needed */
+    height: 5px;
     background-color: orange;
-    width: 100%; /* Ensure it spans the full width */
+    width: 100%;
 }
 .latest-blog-posts {
     text-align: center;
@@ -158,9 +158,9 @@ nav ul li a:hover {
 }
 
 .blog-post img {
-    width: 400px !important; /* Set width */
-    height: 250px !important; /* Set height */
-    object-fit: cover; /* Crop to fit */
+    width: 400px !important;
+    height: 250px !important;
+    object-fit: cover;
     display: block;
 }
 
@@ -172,7 +172,7 @@ nav ul li a:hover {
 }
 .blog-post h4 {
     padding: 10px;
-    padding-bottom: 20px; /* Added bottom padding to text */
+    padding-bottom: 20px;
 }
 
 .more-posts-btn {
@@ -261,10 +261,7 @@ footer {
     transition: color 0.3s ease;
 
   }
-  /* .social-media-icons img{
-    height: 25px;
-    width: 25px;
-  } */
+  
 
   .social-media-icons a:hover {
     color: #00bcd4;
