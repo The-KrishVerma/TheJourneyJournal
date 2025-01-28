@@ -67,6 +67,8 @@ nav ul li a:hover {
     text-align: left;
     color: #fff;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-overlay {
